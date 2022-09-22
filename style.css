@@ -28,7 +28,7 @@ input:hover{
     /* color: #370B00 !important; */
     color: white !important;
     font-family: 'Times New Roman', Times, serif !important;
-    background-color: #370B00 !important;
+    background-color: #370B00!important;
 }
 .btn:hover{
     background-color: white !important;
@@ -65,13 +65,13 @@ input:hover{
         left: 20px;
     }
     .btn{
-        font-size: 33px !important;
+        font-size: 27px !important;
         position: relative;
         left: 24px;
     }
     img{
         background-color: #e7edf1 !important;
         position: relative;
-        top: 110px;
+        top: 170px;
     }
 }
