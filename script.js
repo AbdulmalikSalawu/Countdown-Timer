@@ -4,7 +4,7 @@ const countDown = ()=>{
     let countedHrs = hrs.value
     countedSecs--;
     secs.value = countedSecs;
-    setTimeout(countDown, 1000)
+    myTimeout = setTimeout(countDown, 1000)
     if (countedSecs< 0 && countedMins == 0){
         secs.value = "00"
         mins.value = "00"
@@ -19,5 +19,14 @@ const countDown = ()=>{
         mins.value = 60
         hrs.value--
     }
-    // clearInterval(myTimeout)
+    // clearInterval(myTimeout) 
+}
+const pauseButton =()=>{
+    clearTimeout(myTimeout);
+}
+const stopCountdown = ()=>{
+    clearInterval(myTimeout);
+    secs.value = "00";
+    mins.value = "00";
+    hrs.value = "00";
 }

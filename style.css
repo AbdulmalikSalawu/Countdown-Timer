@@ -39,6 +39,12 @@ input:hover{
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
+#stopbutton{
+    background-color: black;
+    border-radius: 5px;
+    width: 120px;
+    padding: 8px;
+}
 @media screen and (max-width: 500px) {
     body{
         height: 1000px;
