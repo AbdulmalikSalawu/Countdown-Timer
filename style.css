@@ -41,9 +41,15 @@ input:hover{
 }
 #stopbutton{
     background-color: black;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 120px;
     padding: 8px;
+}
+#stopbutton:hover{
+    background-color: #ebcdb6;
+    color: black !important;
+    font-weight: bold;
+    border: thin solid black !important;
 }
 @media screen and (max-width: 500px) {
     body{
